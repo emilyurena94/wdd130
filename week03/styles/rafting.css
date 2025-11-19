@@ -1,8 +1,5 @@
-/* ----------- GLOBAL RESET ----------- */
-
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
-/* ----------- ROOT VARIABLES ----------- */
 :root {
 --primary-color: #0a6e2b;      
 --accent1-color: #264653;      
@@ -11,21 +8,18 @@
 --paragraph-font: Arial, sans-serif;
 }
 
-/* ----------- BODY ----------- */
 body {
 background-color: #fff;
 font-family: var(--paragraph-font);
 color: var(--accent1-color);
 }
 
-/* ----------- LAYOUT CONTAINERS ----------- */
 header, main, footer {
 width: 840px;
 margin: 0 auto;
 padding: 16px;
 }
 
-/* ----------- HEADER ----------- */
 header {
 display: grid;
 grid-template-columns: 120px auto;
@@ -58,7 +52,6 @@ nav a:hover {
 text-decoration: underline;
 }
 
-/* ----------- HERO SECTION ----------- */
 .hero {
 position: relative;
 margin-top: 20px;
@@ -84,7 +77,6 @@ font-size: 2rem;
 font-weight: bold;
 }
 
-/* ----------- ARTICLE OVERLAY ----------- */
 .hero article {
 position: absolute;
 bottom: 20px;
@@ -107,7 +99,6 @@ float: right;
 margin-left: 12px;
 }
 
-/* ----------- SECTIONS ----------- */
 section {
 margin-top: 30px;
 }
@@ -115,7 +106,7 @@ margin-top: 30px;
 h2 {
 font-family: var(--heading-font);
 margin-bottom: 12px;
-color: var(--accent2-color); /* improved contrast */
+color: var(--accent2-color); 
 }
 
 section p {
@@ -123,7 +114,6 @@ line-height: 1.6;
 font-size: 1rem;
 }
 
-/* ----------- FOOTER ----------- */
 footer {
 margin-top: 40px;
 border-top: 2px solid var(--accent1-color);
