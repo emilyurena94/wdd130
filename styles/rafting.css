@@ -8,9 +8,9 @@
 
 /* ----------- ROOT VARIABLES ----------- */
 :root {
---primary-color: #0a6e2b;      /* header background */
---accent1-color: #264653;      /* main text color */
---accent2-color: #8c6d1f;      /* darker gold for h2 contrast */
+--primary-color: #0a6e2b;      
+--accent1-color: #264653;      
+--accent2-color: #8c6d1f;      
 --heading-font: "Georgia", serif;
 --paragraph-font: Arial, sans-serif;
 }
@@ -51,7 +51,7 @@ justify-content: flex-end;
 }
 
 nav a {
-color: #ffffff; /* white for contrast */
+color: #ffffff;
 text-decoration: none;
 font-size: 1.1rem;
 font-weight: bold;
@@ -118,7 +118,7 @@ margin-top: 30px;
 h2 {
 font-family: var(--heading-font);
 margin-bottom: 12px;
-color: var(--accent2-color); /* improved contrast */
+color: var(--accent2-color); 
 }
 
 section p {
