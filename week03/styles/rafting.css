@@ -1,0 +1,148 @@
+/* ----------- GLOBAL RESET ----------- */
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+/* ----------- ROOT VARIABLES ----------- */
+:root {
+--primary-color: #0a6e2b;      
+--accent1-color: #264653;      
+--accent2-color: #8c6d1f;      
+--heading-font: "Georgia", serif;
+--paragraph-font: Arial, sans-serif;
+}
+
+/* ----------- BODY ----------- */
+body {
+background-color: #fff;
+font-family: var(--paragraph-font);
+color: var(--accent1-color);
+}
+
+/* ----------- LAYOUT CONTAINERS ----------- */
+header, main, footer {
+width: 840px;
+margin: 0 auto;
+padding: 16px;
+}
+
+/* ----------- HEADER ----------- */
+header {
+display: grid;
+grid-template-columns: 120px auto;
+align-items: center;
+background-color: var(--primary-color);
+padding: 16px;
+border-radius: 8px;
+color: #ffffff; 
+}
+
+#logo {
+width: 100px;
+}
+
+nav ul {
+display: flex;
+gap: 20px;
+list-style: none;
+justify-content: flex-end;
+}
+
+nav a {
+color: #ffffff; 
+text-decoration: none;
+font-size: 1.1rem;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* ----------- HERO SECTION ----------- */
+.hero {
+position: relative;
+margin-top: 20px;
+}
+
+.hero img {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 10px;
+}
+
+.hero h1 {
+position: absolute;
+top: 20px;
+width: 100%;
+text-align: center;
+padding: 12px;
+background-color: #00000080;
+color: #ffffff;
+font-family: var(--heading-font);
+font-size: 2rem;
+font-weight: bold;
+}
+
+/* ----------- ARTICLE OVERLAY ----------- */
+.hero article {
+position: absolute;
+bottom: 20px;
+left: 20px;
+background: #ffffffe6;
+padding: 16px;
+width: 450px;
+min-height: 140px;
+border-radius: 10px;
+display: flex;
+gap: 12px;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.hero article img {
+width: 130px;
+border-radius: 8px;
+float: right;
+margin-left: 12px;
+}
+
+/* ----------- SECTIONS ----------- */
+section {
+margin-top: 30px;
+}
+
+h2 {
+font-family: var(--heading-font);
+margin-bottom: 12px;
+color: var(--accent2-color); /* improved contrast */
+}
+
+section p {
+line-height: 1.6;
+font-size: 1rem;
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+margin-top: 40px;
+border-top: 2px solid var(--accent1-color);
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+footer p {
+font-size: 0.9rem;
+}
+
+.socialmedia a img {
+width: 32px;
+margin-left: 10px;
+transition: transform 0.2s;
+}
+
+.socialmedia a img:hover {
+transform: scale(1.15);
+}
