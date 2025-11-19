@@ -103,6 +103,7 @@ section {
 margin-top: 30px;
 }
 
+
 h2 {
 font-family: var(--heading-font);
 margin-bottom: 12px;
@@ -136,3 +137,4 @@ transition: transform 0.2s;
 .socialmedia a img:hover {
 transform: scale(1.15);
 }
+
