@@ -2,7 +2,7 @@
 :root {
 --primary-color: #0a6e2b;     
 --accent1-color: #264653;      
---accent2-color: #e9c46a;      
+--accent2-color: #8c6d1f;      
 --heading-font: "Georgia", serif;
 --paragraph-font: Arial, sans-serif;
 }
@@ -149,3 +149,4 @@ transition: transform 0.2s;
 .socialmedia a img:hover {
 transform: scale(1.15);
 }
+
