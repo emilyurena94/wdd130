@@ -37,6 +37,8 @@ align-items: center;
 background-color: var(--primary-color);
 padding: 16px;
 border-radius: 8px;
+color: #ffffff; 
+
 }
 
 #logo {
@@ -149,3 +151,4 @@ transition: transform 0.2s;
 .socialmedia a img:hover {
 transform: scale(1.15);
 }
+
