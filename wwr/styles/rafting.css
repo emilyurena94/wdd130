@@ -157,6 +157,7 @@ section p {
 .adventure-gallery {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
   justify-items: space-between;
   align-items: flex-start;
   gap: 12px;
@@ -205,4 +206,5 @@ footer p {
 .socialmedia a img:hover {
   transform: scale(1.15);
 }
+
 
