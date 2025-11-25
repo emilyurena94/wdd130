@@ -73,32 +73,41 @@ nav a:hover {
 }
 .hero {
   position: relative;
-  margin-top: 20px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  z-index: 2;
 }
 
 .hero img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 10px;
 }
 
 .hero article {
-  margin-top: 20px;
-  flex-direction: row;
-  background: #ffffffe6;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 60%;
+  background: #ffffffcc;
   padding: 20px;
-  width: 100%;
   border-radius: 10px;
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  z-index: 2;
 }
 
 .hero article img {
   width: 140px;
   border-radius: 10px;
   flex-shrink: 0;
+  float: right;      
+  margin-left: 20px;
 }
 
 .hero article p {
@@ -196,3 +205,4 @@ footer p {
 .socialmedia a img:hover {
   transform: scale(1.15);
 }
+
