@@ -131,7 +131,7 @@ section p {
   font-size: 1rem;
 }
 
-/* ---------- HISTORY SECTION (GRID COMO PIDE BYUI) ---------- */
+/* --- HISTORY SECTION --- */
 
 .history-grid {
   display: grid;
@@ -152,13 +152,12 @@ section p {
 }
 
 
-/* ---------- ADVENTURES SECTION ---------- */
+/* ---- ADVENTURES SECTION ----- */
 
 .adventure-gallery {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  justify-items: space-between;
   align-items: flex-start;
   gap: 12px;
 }
@@ -206,5 +205,3 @@ footer p {
 .socialmedia a img:hover {
   transform: scale(1.15);
 }
-
-
