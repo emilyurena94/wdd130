@@ -1,1 +1,206 @@
+/* ---------- GENERAL ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  color: #264653;
+  background: #fff;
+}
+
+header, main, footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a6e2b;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+#logo {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+/* ---------- CONTACT INFO CENTRADO ---------- */
+.centered-contact-info {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* ---------- MAP + FORM ---------- */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; 
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Responsivo */
+}
+
+.contact-info iframe {
+  width: 500px;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* FORMULARIO */
+.contact-form {
+  width: 400px;
+  background: #f7f7f7;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* LABELS Y CAMPOS */
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BOTÓN */
+.contact-form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #0a6fae;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #095e92;
+}
+
+/* ---------- ENCUESTA (RADIOS) ---------- */
+.purpose-fieldset {
+  border: none; 
+  padding: 0;
+  margin-top: 15px;
+}
+
+.purpose-fieldset legend {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #264653;
+  margin-bottom: 8px;
+}
+
+.purpose-fieldset label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center; 
+  gap: 8px;            
+  margin-top: 15px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  flex-shrink: 0;     
+  width: 18px;        
+  height: 18px;
+  margin: 0;           
+  vertical-align: middle;
+}
+
+
+/* ---------- TEAM SECTION ---------- */
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member figure {
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #264653;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.socialmedia a img {
+  width: 24px; 
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.socialmedia a img:hover {
+  transform: scale(1.2);
+}
